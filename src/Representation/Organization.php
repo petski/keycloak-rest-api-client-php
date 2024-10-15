@@ -23,5 +23,6 @@ class Organization extends Representation
         protected ?OrganizationDomainCollection $domains = null,
         protected ?UserCollection $members = null,
         protected ?IdentityProviderCollection $identityProviders = null,
+        protected ?string $alias = null,
     ) {}
 }
